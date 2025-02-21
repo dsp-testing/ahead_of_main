@@ -1,0 +1,60 @@
+version: 2
+updates:
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "23:00"
+      timezone: "UTC"
+    commit-message:
+      prefix: "CT-5900: "
+    reviewers:
+      - "epursiai"
+      - "hongyu-cambri"
+      - "stazz-cambri"
+    assignees:
+      - "epursiai"
+      - "hongyu-cambri"
+      - "stazz-cambri"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "23:00"
+      timezone: "UTC"
+    commit-message:
+      prefix: "CT-5900: "
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
+    reviewers:
+      - "epursiai"
+      - "hongyu-cambri"
+      - "stazz-cambri"
+    assignees:
+      - "epursiai"
+      - "hongyu-cambri"
+      - "stazz-cambri"
+
+  - package-ecosystem: "docker"
+    directory: "docker"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "23:00"
+      timezone: "UTC"
+    commit-message:
+      prefix: "CT-5900: "
+    reviewers:
+      - "epursiai"
+      - "hongyu-cambri"
+      - "stazz-cambri"
+    assignees:
+      - "epursiai"
+      - "hongyu-cambri"
+      - "stazz-cambri"
+      

@@ -1,0 +1,4 @@
+[submodule "lib/lib-infra"]
+	path = lib/lib-infra
+	url = https://github.com/CambriSoftware/lib-infra.git
+	branch = main

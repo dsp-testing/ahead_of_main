@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "@cambri/lib-unit-tests",
+  "description": "Common mocking and AWS -related helpers to be used in unit tests.",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "build:tsc": "yarn run tsc --project tsconfig.build.json",
+    "build": "yarn run build:tsc",
+    "lint": "yarn run lint:typedoc && yarn run lint:eslint && yarn run lint:circular",
+    "lint:circular": "madge --ts-config ./tsconfig.build.json --circular --no-color --no-spinner --extensions ts --warning ./src",
+    "lint:eslint": "yarn run lint:eslint:all && yarn run lint:eslint:app",
+    "lint:eslint:all": "eslint ./src --max-warnings=0 --config ../../eslint.config.all.ts",
+    "lint:eslint:app": "eslint ./src --max-warnings=0 --config ../../eslint.config.app.ts",
+    "lint:typedoc": "yarn run typedoc",
+    "test": "yarn run test:prepare && vitest",
+    "test:prepare": "cp ../../vitest.config.ts .",
+    "tsc": "tsc",
+    "typedoc": "yarn run typedoc:prepare && typedoc",
+    "typedoc:prepare": "cp ../../typedoc.*.mjs ."
+  }
+}
