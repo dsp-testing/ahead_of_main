@@ -16,7 +16,7 @@
     "throw-expression": "2.1.0"
   },
   "devDependencies": {
-    "type-fest": "4.32.0"
+    "type-fest": "4.35.0"
   },
   "scripts": {
     "build:tsc": "yarn run tsc --project tsconfig.build.json",
