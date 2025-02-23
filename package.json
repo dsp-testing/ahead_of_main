@@ -12,7 +12,7 @@
     "lib/*/code/*"
   ],
   "dependencies": {
-    "@pulumi/docker-build": "0.0.8",
-    "@pulumi/tls": "5.0.10"
+    "@pulumi/docker-build": "0.0.10",
+    "@pulumi/tls": "5.1.0"
   }
 }

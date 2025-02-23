@@ -11,8 +11,8 @@
     }
   },
   "dependencies": {
-    "@pulumi/pulumi": "3.145.0",
-    "effect": "3.12.1",
+    "@pulumi/pulumi": "3.152.0",
+    "effect": "3.13.2",
     "throw-expression": "2.1.0"
   },
   "devDependencies": {
