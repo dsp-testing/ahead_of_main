@@ -11,9 +11,9 @@
     }
   },
   "dependencies": {
-    "@pulumi/aws-native": "1.22.0",
-    "@pulumi/aws": "6.66.2",
-    "@pulumi/random": "4.16.8"
+    "@pulumi/aws-native": "1.25.0",
+    "@pulumi/aws": "6.69.0",
+    "@pulumi/random": "4.17.0"
   },
   "scripts": {
     "build:tsc": "yarn run tsc --project tsconfig.build.json",
