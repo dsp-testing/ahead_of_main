@@ -2360,14 +2360,14 @@
     "@pulumi/pulumi" "^3.142.0"
     mime "^2.0.0"
 
-"@pulumi/docker-build@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@pulumi/docker-build/-/docker-build-0.0.8.tgz#203bdd9eed062ed0d3ddd2ef275ffcc45a87b3f4"
-  integrity sha512-tS6UUgmDjQ+LVekMXGC/6ND7riY75h3oO9fLiVOrvNafCBumxK+Cjm6ZZ9tUChLYvw6H+rZRExZEhfC8F/SQgQ==
+"@pulumi/docker-build@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@pulumi/docker-build/-/docker-build-0.0.10.tgz#bf6a40bb867cef70b7c6fc651cbd0b8e13579f42"
+  integrity sha512-b+IrUIFzMr9fOEkZPTT7GvVjtG3r8uUVjYkHwg+1yuFGXSQ33z+7Pd/qqoe8sPitJepRJSq1WMUJ9vJ9eMpK0w==
   dependencies:
-    "@pulumi/pulumi" "^3.136.0"
+    "@pulumi/pulumi" "^3.142.0"
 
-"@pulumi/pulumi@3.145.0", "@pulumi/pulumi@^3.136.0", "@pulumi/pulumi@^3.142.0":
+"@pulumi/pulumi@3.145.0", "@pulumi/pulumi@^3.142.0":
   version "3.145.0"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.145.0.tgz#7b0045848e4583630e2f019869785bdceeb0f9c6"
   integrity sha512-oIKrxQ4Idlg6BNC5IKSCCr/dG5zHvAjbxJXFHcL97aUMvrWRaRU4Dc2k0AMXTxr/olMtm3b+dBF+2SpekvqR9Q==
@@ -2415,10 +2415,10 @@
   dependencies:
     "@pulumi/pulumi" "^3.142.0"
 
-"@pulumi/tls@5.0.10":
-  version "5.0.10"
-  resolved "https://registry.yarnpkg.com/@pulumi/tls/-/tls-5.0.10.tgz#0024dcd343dd586994a7d50b38ff40e4fdddd119"
-  integrity sha512-A/T4KffdlWMycezaBve2E4PQRIXh98gFM8jBnWiTqNbFOK3rEoPD474NEbf/0gIpLU0irhkOwQxywpzMtiN65A==
+"@pulumi/tls@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/tls/-/tls-5.1.0.tgz#b6fcbf7b18e4ac4c1dd1942530eb920c66730d34"
+  integrity sha512-XrJFMUcvuSn8mpnzWcrTRfMjJ5QXvL7skBFsvU+RMuoXs8nWBd/93qiIg+fprZwANnCFfvw1SlMW/pBcj91jqA==
   dependencies:
     "@pulumi/pulumi" "^3.142.0"
 
